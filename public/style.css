@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+}
+.todo-container {
+  width: 30%;
+  margin: 0 auto;
+  height: 90vh;
+  background-color: #f8f8f8;
+}
+.todo-container li {
+  list-style: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.todo-operation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+#item {
+  outline: 0;
+  width: 330px;
+  height: 40px;
+  border: 1px solid lightgray;
+  box-sizing: border-box;
+  font-size: 20px;
+  text-indent: 1em;
+}
+
+.button {
+  height: 40px;
+  line-height: 40px;
+  width: 100px;
+  background-color: lightgray;
+  cursor: pointer;
+  text-align: center;
+  color: #f2f2f2;
+}
