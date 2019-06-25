@@ -18,10 +18,9 @@
       <div class="button" onclick="addItem()">Add item</div>
     </div>
     <ul>
-      <li>aaa</li>
-      <li>aaa</li>
-      <li>aaa</li>
-      <li>aaa</li>
+      <% for( let i = 0; i < data.length; i++) { %>
+        <li onclick="removeItem('<%= data[i]['_id']%>')"><%= data[i].item %></li>
+      <%}%>
     </ul>
   </div>
 </body>
