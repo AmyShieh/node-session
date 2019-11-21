@@ -45,3 +45,7 @@ app.delete('/todo-list/:id', (req, res) => {
 
   console.log();
 })
+
+app.post('/payload', (req, res) => {
+  console.log(req, res);
+})
