@@ -49,3 +49,7 @@ app.delete('/todo-list/:id', (req, res) => {
 app.post('/payload', (req, res) => {
   console.log(req, res);
 })
+
+app.get('/payload', (req, res) => {
+  console.log(req, res);
+})
