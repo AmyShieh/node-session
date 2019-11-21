@@ -52,4 +52,5 @@ app.post('/payload', (req, res) => {
 
 app.get('/payload', (req, res) => {
   console.log(req, res);
+  res.send('hi amy!')
 })
