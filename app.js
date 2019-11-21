@@ -21,7 +21,7 @@ app.use(urlEncode);
 
 app.use(bodyparser.json());
 
-app.listen(3000, 'localhost');
+app.listen(3000);
 
 app.get('/todo-list', (req, res) => {
   Todo.find({}, (err, data) => {
